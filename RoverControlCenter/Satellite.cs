@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RoverControlCenter
 {
-    class Satellite
+    class Satellite : IDirectable
     {
         public string Alias
         { get; private set; }
